@@ -1,0 +1,17 @@
+nav {
+  border-bottom: none;
+  .nav1,
+  .nav2,
+  .nav3 {
+    display: none;
+  }
+  .nav4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+    .nav-item {
+      display: inline;
+    }
+  }
+}

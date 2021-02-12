@@ -1,0 +1,43 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $primartText; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $secondaryGray;
+}
+
+//buttons
+.g-button,
+button {
+  padding: 12px 36px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: $primaryGreen;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  margin: 0.5rem 0;
+}
+.g-button{
+  padding: 0;
+  width: 100px;
+  height: 40px;
+
+}
+.g-button.create{
+  width: 80%;
+  color: $primaryBlue;
+  background: RGBA(64,120,192,0.2);
+}

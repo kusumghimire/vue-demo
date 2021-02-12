@@ -1,0 +1,10 @@
+.feed {
+  overflow: hidden;
+  .feed-title {
+    display: none;
+  }
+  .feed-sections{
+    display: grid;
+    grid-gap: 3rem;
+  }
+}

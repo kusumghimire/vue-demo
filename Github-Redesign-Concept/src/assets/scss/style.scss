@@ -1,0 +1,35 @@
+@import "md/variables";
+@import "md/global";
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: $primaryBG;
+  font-family: "Cera Pro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@import "md/home";
+@import "md/repositories";
+@import "md/feed";
+@import "md/feed-card";
+@import "md/repo-list";
+@import "md/repo-team";
+@import "md/explore-card";
+@import "md/explore";
+@import "md/navbar";
+@import "md/bottom-main";
+
+@media only screen and (max-width: 992px) {
+  @import "768_sm/home";
+  @import "768_sm/repositories";
+  @import "768_sm/explore";
+  @import "768_sm/feed";
+  @import "768_sm/navbar";
+  @import "768_sm/bottom-main";
+}
+
+@media only screen and (max-width: 425px){
+  @import "425_col/home";
+}
